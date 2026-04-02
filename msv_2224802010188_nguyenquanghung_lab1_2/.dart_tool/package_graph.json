@@ -1,0 +1,14 @@
+{
+  "roots": [
+    "msv_2224802010188_nguyenquanghung_lab1_2"
+  ],
+  "packages": [
+    {
+      "name": "msv_2224802010188_nguyenquanghung_lab1_2",
+      "version": "1.0.0",
+      "dependencies": [],
+      "devDependencies": []
+    }
+  ],
+  "configVersion": 1
+}
