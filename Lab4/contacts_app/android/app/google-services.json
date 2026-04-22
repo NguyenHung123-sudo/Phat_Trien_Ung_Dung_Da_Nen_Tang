@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "490784834174",
+    "project_id": "dmeo-5a6f9",
+    "storage_bucket": "dmeo-5a6f9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490784834174:android:83840b83fb14bf6ccc8e2f",
+        "android_client_info": {
+          "package_name": "com.example.contacts_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfSZAcfxIiCIbax1aYML5BybOj6Hlys64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
