@@ -1,0 +1,40 @@
+name: flutter_todo_app
+description: Flutter Todo App with ASP.NET Core JWT Backend - Lab 5
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP requests đến ASP.NET Core API
+  http: ^1.2.0
+  
+  # Lưu JWT token an toàn vào SharedPreferences
+  shared_preferences: ^2.2.2
+  
+  # Decode JWT payload để lấy thông tin user, kiểm tra hết hạn
+  jwt_decoder: ^2.0.1
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Google Fonts - typography đẹp
+  google_fonts: ^6.1.0
+  
+  # Icons đẹp hơn
+  cupertino_icons: ^1.0.6
+
+  # Swipe to delete / slide actions (như tutorial mẫu)
+  flutter_slidable: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    # withOpacity deprecated trong Flutter 3.x mới - chỉ là warning, không ảnh hưởng runtime
+    deprecated_member_use: ignore
+    # Cho phép if không có curly braces trong một số trường hợp
+    curly_braces_in_flow_control_structures: ignore
+
+linter:
+  rules:
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
