@@ -1,0 +1,30 @@
+# .gitignore for Flutter and ASP.NET Core
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/
+android/.gradle/
+
+# .NET (Backend)
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+userdb.sqlite
+userdb.sqlite-shm
+userdb.sqlite-wal
+
+# VS Code
+.vscode/
+.history/
+
+# OS metadata
+.DS_Store
+Thumbs.db
